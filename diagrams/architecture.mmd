@@ -1,0 +1,26 @@
+flowchart TD
+
+Client[Dispositivos autorizados] 
+LAN[Rede local] PrivateNet[Rede privada] 
+Host[Host Linux] 
+Firewall[Firewall] 
+Proxy[Proxy HTTPS privado] 
+Nextcloud[Nextcloud] 
+Jellyfin[Jellyfin] 
+MariaDB[MariaDB] 
+Storage[(Armazenamento persistente)] 
+ContainerNet[Rede de contêineres]
+
+Client --> LAN
+Client --> PrivateNet
+LAN --> Firewall
+PrivateNet --> Firewall
+PrivateNet --> Proxy
+Proxy --> Nextcloud
+Firewall --> Jellyfin
+Host --> ContainerNet
+ContainerNet --> Nextcloud
+ContainerNet --> Jellyfin
+ContainerNet --> MariaDB
+Nextcloud --> Storage
+Jellyfin --> Storage
