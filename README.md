@@ -6,7 +6,6 @@
 
   <p align="center">
     <strong>JILLSERVER HOMELAB</strong><br/>
-    Infraestrutura própria • Linux • Serviços autohospedados
   </p>
 
   <br/>
@@ -177,15 +176,18 @@ A evolução do Jillserver pode incluir:
 - Monitoramento de recursos e disponibilidade.
 - Revisão periódica de firewall, permissões e atualizações.
 - Documentação dos fluxos de rede e dos procedimentos de recuperação.
+- PiHole como servidor DNS.
 
 ## Identidade visual
 
 <p align="justify">
 O design foi inspirado em uma representação simplificada do átomo de silício. Os três anéis representam suas três camadas eletrônicas ocupadas. No núcleo, as iniciais "JS" vêm do host Jillserver, e os números 0 e 1, posicionados logo abaixo, fazem referência à representação binária utilizada na computação.
+O azul escuro foi escolhido para transmitir estabilidade e criar uma associação visual com tecnologia e infraestrutura.
 </p>
 
 <p align="justify">
-O azul escuro foi escolhido para transmitir estabilidade e criar uma associação visual com tecnologia e infraestrutura.
+  "A inquietude é o seu futuro implorando aos seus pés por instruções."
+  Mike Murdock
 </p>
 
 ---
